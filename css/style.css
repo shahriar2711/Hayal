@@ -453,3 +453,22 @@ footer p{
   text-align: center;
   color: #fff;
 }
+
+@media screen and (max-width: 600px){
+  .searchArea{
+    position: fixed;
+    right: 30px;
+    top: 40px;
+    width: 170px;
+    height: 45px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+    box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+    box-sizing: border-box;
+    z-index: 1;
+    border: 1px solid rgba(167, 158, 245, 0.1);
+  }
+}
